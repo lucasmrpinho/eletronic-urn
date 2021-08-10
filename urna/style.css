@@ -157,3 +157,19 @@ body {
     padding-left: 10px;
 }
 
+/* NOTICES */
+
+.big--notice {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.giant--notice {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

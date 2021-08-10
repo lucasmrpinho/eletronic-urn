@@ -17,11 +17,10 @@
                         <span>SEU VOTO PARA</span>
                     </div>
                     <div class="d-1-2">
-                        <span>VEREADOR</span>
+                        <span>POSITION</span>
                     </div>
                     <div class="d-1-3">
-                        <div class="number shine">3</div>
-                        <div class="number shine">8</div>
+                        <div class="number"></div>
                     </div>
                     <div class="d-1-4">
                         Nome: FULANO DE TAL <br/>
@@ -49,29 +48,33 @@
         </div>
         <div class="keyboard">
             <div class="keyboard--row">
-                <div class="key">1</div>
-                <div class="key">2</div>
-                <div class="key">3</div>
+                <div class="key" onclick="clicked('1')">1</div>
+                <div class="key" onclick="clicked('2')">2</div>
+                <div class="key" onclick="clicked('3')">3</div>
             </div>
             <div class="keyboard--row">
-                <div class="key">4</div>
-                <div class="key">5</div>
-                <div class="key">6</div>
+                <div class="key" onclick="clicked('4')">4</div>
+                <div class="key" onclick="clicked('5')">5</div>
+                <div class="key" onclick="clicked('6')">6</div>
             </div>
             <div class="keyboard--row">
-                <div class="key">7</div>
-                <div class="key">8</div>
-                <div class="key">9</div>
+                <div class="key" onclick="clicked('7')">7</div>
+                <div class="key" onclick="clicked('8')">8</div>
+                <div class="key" onclick="clicked('9')">9</div>
             </div>
             <div class="keyboard--row">
-                <div class="key">0</div>
+                <div class="key" onclick="clicked('9')">0</div>
             </div>
             <div class="keyboard--row">
-                <div class="key white--key">BRANCO</div>
-                <div class="key correction--key">CORRIGE</div>
-                <div class="key confirm--key">CONFIRMA</div>
+                <div class="key white--key" onclick="white()">BRANCO</div>
+                <div class="key correction--key" onclick="correction()">CORRIGE</div>
+                <div class="key confirm--key" onclick="confirm()">CONFIRMA</div>
             </div>
         </div>
     </div>
+
+    <script src='steps.js'></script>
+    <script src='script.js'></script>
+
 </body>
 </html>
